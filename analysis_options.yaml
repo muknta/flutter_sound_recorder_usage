@@ -1,0 +1,25 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: true
+    implicit-dynamic: true
+
+  exclude:
+    - "bin/cache/**"
+    - "lib/i18n/stock_messages_*.dart"
+    - "lib/src/http/**"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.config.dart"
+
+linter:
+  rules:
+    - prefer_single_quotes
+    - always_declare_return_types
+    - sort_child_properties_last
+    - prefer_expression_function_bodies
+    - close_sinks
+    - cancel_subscriptions
+    - cascade_invocations
+    - prefer_final_locals
